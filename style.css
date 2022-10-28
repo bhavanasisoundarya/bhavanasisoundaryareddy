@@ -1,8 +1,59 @@
-h1,h3,h4{color: red;
+h1,h4{
+    color :royalblue;
 font-family:"Roboto";
-,
+flex-wrap: nowrap;
+display: block;
+text-align: center;
+
 }
-p{
+h2{color:blue;
+font-family:"Roboto";}
+
+body{
+    background-image:url('./soundaryareddy.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+    background-position: center;
+    border-style: center;
+    
+}
+
+
+h3{color:black;
+}
+img{
+    float:right;
+    height:400px;
+    width:200px;
+    display: inline;
+
+}
+section.sound{
+    text-align: center;
+}
+p,b{
     color: blue;
-    font-family:"Fasthand"
 }
+header{
+    display:flex;
+}
+header nav ul{
+    display:flex;
+    margin-left:350px;
+    font-size:20px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin:10px;
+    color:black;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+    
